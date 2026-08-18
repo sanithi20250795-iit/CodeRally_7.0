@@ -45,7 +45,7 @@ Participants experience a full journey from online challenges to an intense on-s
 
 The **Training Weeks** are the foundation of the competition:
 
-* 📅 Challenges run from **Monday (00:00 AM) to Friday (11:59 PM)**
+*  Challenges run from **Monday (00:00 AM) to Friday (11:59 PM)**
 * 🧩 Problems range from easy to advanced difficulty
 * 🏆 Points are awarded based on problem complexity
 * 📊 Leaderboards updated weekly
