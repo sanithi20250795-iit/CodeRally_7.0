@@ -73,7 +73,7 @@ def main():
             word = data[idx]
             idx += 1
 
-            # O(L) anagram signature for lowercase a-z
+     
             freq = [0] * 26
             for c in word:
                 freq[c - 97] += 1
@@ -86,7 +86,6 @@ def main():
             words.sort()
             result.append(words)
 
-        # Shortest length first, then lexicographically
         result.sort(key=lambda g: (len(g[0]), g[0]))
 
         for group in result:
