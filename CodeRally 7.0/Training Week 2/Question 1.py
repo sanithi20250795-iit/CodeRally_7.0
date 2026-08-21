@@ -1,6 +1,6 @@
 def solve():
-   a = input().strip()
-   b = input().strip()
+   x = input().strip()
+   y = input().strip()
    print(0) 
 
 
