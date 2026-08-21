@@ -1,7 +1,6 @@
 import sys
 
 input = sys.stdin.readline
-
 # ---------- Point on Segment ----------
 def on_segment(px, py, x1, y1, x2, y2):
     cross = (x2 - x1) * (py - y1) - (y2 - y1) * (px - x1)
@@ -11,7 +10,6 @@ def on_segment(px, py, x1, y1, x2, y2):
         min(x1, x2) <= px <= max(x1, x2) and
         min(y1, y2) <= py <= max(y1, y2)
     )
-
 # ---------- Point Inside Polygon (Ray Casting) ----------
 def inside_polygon(x, y):
     inside = False
@@ -31,7 +29,6 @@ def inside_polygon(x, y):
                 inside = not inside
 
     return inside
-
 # ---------- Input ----------
 P = int(input())
 poly = [tuple(map(int, input().split())) for _ in range(P)]
