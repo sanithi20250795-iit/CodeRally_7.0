@@ -1,7 +1,7 @@
 import sys
 
 input = sys.stdin.readline
-# ---------- Point on Segment ----------
+
 def on_segment(px, py, x1, y1, x2, y2):
     cross = (x2 - x1) * (py - y1) - (y2 - y1) * (px - x1)
     if cross != 0:
