@@ -10,7 +10,7 @@ def on_segment(px, py, x1, y1, x2, y2):
         min(x1, x2) <= px <= max(x1, x2) and
         min(y1, y2) <= py <= max(y1, y2)
     )
-# ---------- Point Inside Polygon (Ray Casting) ----------
+
 def inside_polygon(x, y):
     inside = False
     n = len(poly)
@@ -19,7 +19,7 @@ def inside_polygon(x, y):
         x1, y1 = poly[i]
         x2, y2 = poly[(i + 1) % n]
 
-        # Boundary counts as inside
+      
         if on_segment(x, y, x1, y1, x2, y2):
             return True
 
@@ -29,7 +29,7 @@ def inside_polygon(x, y):
                 inside = not inside
 
     return inside
-# ---------- Input ----------
+
 P = int(input())
 poly = [tuple(map(int, input().split())) for _ in range(P)]
 
@@ -42,7 +42,6 @@ for _ in range(S):
 
 Q = int(input())
 
-# ---------- Process Queries ----------
 out = []
 
 for _ in range(Q):
