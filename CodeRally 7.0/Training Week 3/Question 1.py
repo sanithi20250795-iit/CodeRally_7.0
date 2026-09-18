@@ -1,4 +1,4 @@
-"""You are a cryptanalyst working for a deep space monitoring agency. You've intercepted a stream of coded signals from an unknown source. Your team's initial analysis suggests a peculiar pattern: signals that use the exact same set of characters, just in a different order, are related messages (i.e., they are anagrams).
+""" You are a cryptanalyst working for a deep space monitoring agency. You've intercepted a stream of coded signals from an unknown source. Your team's initial analysis suggests a peculiar pattern: signals that use the exact same set of characters, just in a different order, are related messages (i.e., they are anagrams).
 
 To decipher their meaning, your first task is to group these related signals. Furthermore, intelligence suggests that shorter signals are likely high-priority tactical messages, while longer ones are less urgent strategic reports.
 
