@@ -17,7 +17,6 @@ Output Format
 For each test case, your program must write the minimal total cooling load. """
 
 import sys
-
 def main():
     data = sys.stdin.buffer.read().split()
     idx = 0
